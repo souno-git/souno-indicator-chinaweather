@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version = 1.0
+Name = Souno天气指示器
+Comment = A Web Browser
+Exec = /opt/souno-indicator/appindicator.py %u
+Icon = indicator-weather
+Terminal = false
+Type = Application
+Categories = GNOME;Application;Network;
