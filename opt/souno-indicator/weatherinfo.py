@@ -28,12 +28,10 @@ def get_wea():
     elif shi[len(shi)-1][len(shi[len(shi)-1])-1] =="区":
         shi_pattern = '(.+?)地区'
         cache_shi = re.findall(shi_pattern, shi[0])
-        print(cache_shi)
-        if not cache_shi:
+        if not shi[0]:
             shi_pattern = '(.+?)区'
             cache_shi = re.findall(shi_pattern, shi[0])
         shi = cache_shi
-        print(shi)
         wea_city = city_data[shi[0]]
     elif shi[len(shi)-1][len(shi[len(shi)-1])-1] =="县":
         shi_pattern = '(.+?)县'
