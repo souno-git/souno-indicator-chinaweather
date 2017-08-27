@@ -1,7 +1,0 @@
-#!/bin/sh
-# postinst script for hello
-
-echo "============== configure hello by postint ============="
-ln -s /opt/souno-indicator/appindicator.py /usr/bin/appindicator.py
-mv /opt/souno-indicator/souno-indictor.desktop /usr/share/applications
-echo "Ok!"
