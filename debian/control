@@ -1,19 +1,9 @@
-<<<<<<< HEAD
-Package:com.github.vroosky.souno-indicator-chinaweather
-Version:0.2.2
-Section:gnome 
-Priority:extra 
-Maintainer:vroosky <88459122@qq.com>  
-Homepage:http://souno.cc 
-Architecture:amd64
-=======
 Package: com.github.vroosky.souno-indicator-chinaweather
-Version: 0.2.4
+Version: 0.2.5
 Section: gnome 
 Priority: extra 
 Maintainer: vroosky <88459122@qq.com>  
 Homepage: http://souno.cc 
 Architecture: amd64
->>>>>>> d8f304563470c3969253d7caa2b0436dc107fde4
 Depends:python3,python3-dev
 Description:本程序是在GNU通用公共许可证的条款下发布的自由软件你可以重新分配/修改。
